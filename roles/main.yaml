@@ -1,4 +1,5 @@
 - name: install mongodb component
   hosts: mongodb
   become: yes
-  roles: mongodb
+  roles: 
+  - mongodb
